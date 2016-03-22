@@ -26,7 +26,7 @@ export default class CheckboxWithLabel extends React.Component {
           checked={this.state.isChecked}
           onChange={this.onChange}
         />
-        {this.state.isChecked ? this.props.labelOn : this.props.labelOff}
+        
       </label>
     );
   }
