@@ -2,28 +2,36 @@
   "name": "jest",
   "version": "1.0.0",
   "description": "",
-  "main": "CheckboxWithLabel.js",
-  "dependencies": {
-    "react": "~0.14.0",
-    "react-dom": "~0.14.0"
-  },
-  "devDependencies": {
-    "babel-jest": "^9.0.0",
-    "babel-preset-es2015": "*",
-    "babel-preset-react": "*",
-    "jest-cli": "*",
-    "react-addons-test-utils": "~0.14.0"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "jest": {
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react",
-      "<rootDir>/node_modules/react-dom",
-      "<rootDir>/node_modules/react-addons-test-utils"
-    ]
+  "main": "CheckboxWithLabels.js",
+ "dependencies": {
+   "react": "~0.14.0",
+   "react-dom": "~0.14.0"
+ },
+ "devDependencies": {
+   "babel-jest": "^9.0.0",
+   "babel-preset-es2015": "*",
+   "babel-preset-react": "*",
+   "jest-cli": "*",
+   "react-addons-test-utils": "~0.14.0"
+ },
+ "scripts": {
+   "test": "jest"
+ },
+ "jest": {
+   "unmockedModulePathPatterns": [
+     "<rootDir>/node_modules/react",
+     "<rootDir>/node_modules/react-dom",
+     "<rootDir>/node_modules/react-addons-test-utils"
+   ]
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zchase/reactJest.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zchase/reactJest/issues"
+  },
+  "homepage": "https://github.com/zchase/reactJest#readme"
 }
